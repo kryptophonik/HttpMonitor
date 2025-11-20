@@ -1,0 +1,15 @@
+{
+  "name": "HttpMonitor",
+  "version": "1.0.0",
+  "description": "A simple pack to monitor HTTP services.",
+  "author": "ssoneZ AI",
+  "requires": {
+    "ssonez": ">=1.0.0"
+  },
+  "collectors": [
+    "collectors.http_collector.HttpCollector"
+  ],
+  "dependencies": [
+    "httpx>=0.25.0"
+  ]
+}
